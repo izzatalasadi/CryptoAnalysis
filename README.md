@@ -5,33 +5,6 @@ Python script that analyzes the cryptocurrency market using the CoinMarketCap an
 
 #### More about tradingview : https://pypi.org/project/tradingview-ta/
 
-**Stage 0:**
-    get a list of lastest active coins in the market (coinmarketcap)
-
-**Stage 1:**
-    (tradingView analysis)MA analysis that they have been > 0 the last 1 hour , 24 hours and 7 days and output:
-- strong_buy
-- buy
-- sell
-- strong_sell
-
-**Stage 2:**
-    OSC analysis on the "strong_buy list" that we got from the analysis in earlier stage and generate: 
-- recommanded_list
-        
-
-Stage 1 and 2 can be done in different time intervals:
-- 1 minute
-- 5 minutes
-- 15 minutes
-- 1 hour
-- 4 hours
-- 1 day
-- 1 week
-- 1 month
-
-**Stage 3:**
-
 ## Setup:
 1.install requierments:
 ```
