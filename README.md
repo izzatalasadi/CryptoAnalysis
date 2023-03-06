@@ -1,10 +1,7 @@
 # Crypto analysis
 
-Execution time for for 100 crypto currencies that they had a positive changes in the last 1h, 24h, 7days and volume change.
-then program make OscMa analysis for the those cryptos and generate four lists(buy, sell, strong_buy and strong_sell)
+Python script that analyzes the cryptocurrency market using the CoinMarketCap and TradingView APIs. The script uses the CoinMarketCap API to collect the latest cryptocurrency data and filter them based on positive changes in 1 hour, 24 hours, 7 days, and volume change in 24 hours. Then, the script uses the TradingView API to analyze the collected cryptocurrencies' technical indicators such as moving averages and oscillators. The technical analysis results are classified into four categories: Strong Buy, Buy, Sell, and Strong Sell. Finally, the script displays the analysis results in a Streamlit dashboard.
 
-## Discription:
-simple streamlit(screener) app to make MMA and OSC analysis for cryptocurrencies, and gives resaults for which coins are best to buy or sell depending on the interval you using.
 
 #### More about tradingview : https://pypi.org/project/tradingview-ta/
 
